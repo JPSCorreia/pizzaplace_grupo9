@@ -1,0 +1,212 @@
+body {
+	background-color: #fcf4e8;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto Slab", serif;
+}
+/* Seccao da logo,login e do butao "Ver Menu" */
+.login_form{
+	width: 	8vw;
+	height: 	auto;
+	padding-left: 20px;
+	padding-top: 	15px;
+}
+
+.form-group {
+
+}
+
+.placeholdlogin {
+	width: 200px;
+  padding: 6px 25px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 36px;
+  box-sizing: border-box;
+}
+.btnlogin {
+	background-color: red;
+  color: #fff;
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  
+}
+.logo {
+    display: flex;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btnmenu {
+	background-color: red;
+  color: #fff;
+  border: none;
+  padding: 10px 35px;
+  border-radius: 5px;
+  margin-left: 88vw;
+  margin-top: -80px;
+  font-size: 24px;
+  font-family: "Roboto Slab", serif;
+  width: 200px;
+  height: 	auto	;
+
+} 
+
+.menu {
+	padding-right: 10px;
+	padding-top: 10px;
+	margin: 	0px;
+	width: 	100px;
+	margin-top: 	-45px;
+}
+/* Seccao da Promocao */
+/* Q deus tenha piedade para os meus colegas q vejam este trabahlo,pq eu n tenho */
+
+.txtpromocao {
+	position: absolute;
+  z-index: 1;
+  color: white;
+  margin-left: 26vw;
+  margin-top: -460px;
+  font-size: 100px;
+}
+
+.prompizza {
+	width: 100vw;
+	background-color: black;
+	height: 260vh;
+	justify-content: center;
+	padding: 0px 30px;
+
+}
+
+.prompizzabox {
+	width: 420px;
+	height: 770px;
+	background-color: white;
+	position: relative;
+	margin-left: 90px;
+	margin-right: 70px;
+	margin-top: 40px;
+	display: inline-block;
+	border-radius: 30px;
+
+
+}
+
+.prompizzaimg {
+	width: 420px;
+	height: auto;
+}
+
+.txtprompizza {
+	padding-left: 30px;
+	padding-right: 8px;
+	text-align: left;
+	font-size: 25px;
+}
+
+.btnpizza {
+  padding: 10px 20px; 
+  background-color: red; 
+  color: white; 
+  border: none;
+  border-radius: 40px; 
+  font-family: "Roboto Slab", serif;
+  font-size: 100%;
+}
+
+.stockbackground {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	filter: blur(5px);
+	display: block ;
+	margin-bottom: -80px;
+
+}
+
+/* Seccao da fidelizacao */
+
+
+.column {
+  text-align: center;
+  position: relative;
+  margin-left: 77px;
+  margin-right: 70px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.row {
+  height: auto;
+  display: flex; 
+  justify-content: center;
+}
+
+.container {
+	display: inline-block;
+	width: 100vw;
+	position: relative;
+	align-content: center;
+	margin-top: 150px;
+	font-family: "Roboto Slab", serif;
+}
+
+.btnclient {
+	background-color: white;
+  border: none;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  
+}
+
+
+/* Seccao das lojas */
+
+.imglocal {
+    width: 350px;
+    height: auto;
+    display: block;
+    border-radius: 	20px;
+}
+
+.localizacao {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: -100px;
+    background-color: 	white;
+    width: 	70vw;
+    margin-left: 	200px;
+    padding: 	15px 10px;
+    border-radius: 15px;
+}
+
+.texto-local {
+    margin-left: 20px;
+}
+
+/* Seccao das lojas */
+
+.credito {
+	padding-top: 40px;
+	padding-left: 10px;
+	color: white;
+}
+
+.rodape {
+	margin-top: 180px;
+	background-color: red;
+	height: 140px;
+}
+
