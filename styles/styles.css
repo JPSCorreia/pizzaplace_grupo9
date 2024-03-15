@@ -136,7 +136,6 @@ body {
   align-items: center;
   flex-direction: column;
 	font-family: "Roboto Slab", serif;
-  /* border: 1px solid red; */
 }
 
 /* Seccao da logo,login e do butao "Ver Menu" */
@@ -148,10 +147,7 @@ header {
   position: fixed;
   z-index: 999;
   align-items: center;
-  /* border-bottom: 1px solid green; */
-  /* background-color: white; */
   background-color: rgba(255,255,255, 0.85)
-
 }
 
 .bars-menu {
@@ -171,10 +167,9 @@ header {
 .login-container {
   display: flex;
   flex-direction: row;
+  justify-content: right;
   height: 60%;
   margin-right: 2rem;
-  cursor: pointer;
-  
 }
 
 .login-button-container {
@@ -218,22 +213,28 @@ header {
 .menu-container {
   display: flex;
   align-items: center;
+  justify-content: right;
 }
 
 .btnmenu {
-  background-color: red;
-  color: #fff;
+  color: red;
   border: none;
-  padding: 10px 35px;
+  margin: 0 2rem;
   border-radius: 5px;
-  font-size: 24px;
+  font-size: 1.75rem;
   font-family: "Roboto Slab", serif;
-  width: 200px;
-  cursor: pointer;
+  /* width: 5rem; */
+  /* cursor: pointer; */
 } 
 
 
+
 /* Seccao da Promocao */
+
+.select-pizza-size {
+  width: 35%;
+  margin-top: 1rem;
+}
 
 .txt-promocao {
   z-index: 1;
@@ -241,7 +242,6 @@ header {
   font-size: 7rem;
   margin-top: 1rem;
 }
-
 
 .btnpizza {
   padding: 10px 20px; 
@@ -254,45 +254,28 @@ header {
 }
 
 .stockbackground {
-  /* height: 100vh; */
-	/* width: 100vw; */
-	/* backdrop-filter: grayscale(0.5) opacity(0.5); */
-	/* display: block ; */
-	/* margin-bottom: -80px; */
   margin-top: 10vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../styles/images/stock1.jpg');
   background-size: cover;
   background-position: center;
   display:flex;
   flex-direction: column;
-  
-}
-
-.stockbackground h1 {
-	/* filter: ; */
-  
 }
 
 /* Seccao da fidelizacao */
-
-
 .column {
   text-align: center;
-  /* position: relative; */
-  /* margin-left: 77px;
-  margin-right: 70px;
-  margin-top: 40px;
-  display: inline-block; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
   border-radius: 10px;
   height: 145px;
   width: 90%;
   padding: 3rem 1rem;
   margin: 0 1rem;
 }
+
+
 
 .column h2 {
   font-size: 1.5rem;
@@ -337,7 +320,6 @@ header {
   border-radius: 5px;
   font-size: 18px;
   font-family: "Roboto Slab", serif;
-  
 }
 
 
@@ -366,13 +348,6 @@ header {
     margin-left: 20px;
 }
 
-/* Seccao das lojas */
-
-
-
-
-
-
 section {
     width: 100%; 
     display: flex;
@@ -380,28 +355,20 @@ section {
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Seccao Deal */
 .deal {
     display: flex;
     width: 90%;
     justify-content: center;
     align-items: center; 
-    margin-top: rem;
+    margin-top: 7.5rem;
     background-color: black;
     padding: 1.75rem;
     border-radius: 42px;
+}
+
+.nova-loja {
+  width: 90% !important;
 }
 
 .h1-txt-combo {
@@ -413,14 +380,13 @@ section {
   margin-top: 1rem;
 }
 
-
 .pizzacomboimg {
     width: 60%;
     border-radius: 20px;
 }
 
 .txtcombo {
-    width: 40%;
+    width: 75%;
     font-family: "Roboto Slab", serif;
     text-align: center;
     color: white;
@@ -429,10 +395,7 @@ section {
 /* Seccao Menu completo */
 
 .prom-pizza {
-	/* width: 100vw; */
-	/* height: 260vh; */
 	justify-content: center;
-	/* padding: 0px 30px; */
   display: flex;
   flex-wrap: wrap;
   margin: 1rem 0;
@@ -441,21 +404,14 @@ section {
 
 .prom-pizza-box {
 	width: 24rem;
-  height: 42rem;
-	/* height: 770px; */
+  height: 45rem;
 	background-color: rgba(255,255,255,0.95);
-	/* position: relative; */
-	/* margin-left: 20px;
-	margin-right: 30px;
-	margin-top: 40px; */
-	/* display: inline-block; */
 	border-radius: 30px;
   margin: 1rem 1rem 1rem 1rem;
   padding: 1.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .prom-pizza-img {
@@ -465,8 +421,6 @@ section {
 }
 
 .txt-prom-pizza {
-	/* padding-left: 30px;
-	padding-right: 8px; */
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -531,9 +485,284 @@ footer {
   text-align: right;
 }
 
+.row-nova-loja {
+  display: flex; 
+  width: 99%;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.row-nova-loja h1 {
+  font-size: 3rem;
+}
+
+.row-nova-loja .column {
+  background-color: red; 
+  color: white;
+  height: 15rem;
+}
+
+.form-group-2 {
+  
+}
+
+.form-group-2-title {
+  margin-bottom: 1rem;
+}
+
+.menu-container .btnmenu:hover {
+  text-decoration: underline;
+  transition: all 2s ease-in-out;
+}
+
+
+
+
+#toggle {
+  display: none;
+}
+
+/**
+  Hamburger
+**/
+.hamburger {
+  position: absolute;
+  display: none;
+  top: 4rem;
+  right: 6%;
+  margin-left: -2em;
+  margin-top: -45px;
+  width: 2em;
+  height: 45px;
+  z-index: 5;
+}
+
+.hamburger div {
+  position: relative;
+  width: 3em;
+  height: 7px;
+  border-radius: 3px;
+  background-color: red;
+  margin-top: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+/**
+Nav Styles
+**/
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 90%;
+  margin-top: 5.9rem;
+  background-color: rgba(255,255,255, 0.95);
+  top: -120%; left: 0; right: 0; bottom: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+}
+.nav-wrapper {
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: red;
+  font-size: 3rem;
+  display: inline-block;
+  margin-top: 4.25rem;
+  margin-bottom: 4.25rem;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 1px;
+}
+nav a:before {
+  content: '';
+  width: 0;
+  position: absolute;
+  height: 2px;
+  background-color: red;
+  bottom: -0.5rem;
+  transition: all 0.2s ease-in-out;
+  
+}
+nav a:hover {
+  color: tomato;
+  /* text-decoration: underline; */
+}
+nav a:hover:before {
+  width: 100%;
+}
+
+/**
+Animations
+**/
+#toggle:checked + .hamburger .top-bun {
+  transform: rotate(-45deg);
+  margin-top: 25px;
+}
+#toggle:checked + .hamburger .bottom-bun {
+  opacity: 0;
+  transform: rotate(45deg);
+}
+#toggle:checked + .hamburger .meat {
+  transform: rotate(45deg);
+  margin-top: -7px;
+}
+
+#toggle:checked + .hamburger + .nav {
+  top: 0;
+  transform: scale(1);
+}
+
+
+.stockbackground-login {
+  margin-top: 10vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../styles/images/stock1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.column-login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 40rem;
+  width: 25rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin: 0 1rem;
+}
+.row-nova-loja .column-login {
+  background-color: red; 
+  color: white;
+  height: 13rem;
+}
+
+.column-login form div {
+  width: 100%;
+}
+
+.column-login form div input{
+  width: 15rem;
+  margin-bottom: 0.5rem;
+}
+
+.column-login form div select{
+  width: 15rem;
+  margin-bottom: 0.5rem;
+  box-sizing: content-box;
+}
+
+.row-login {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+.senha-esquecida {
+  display: flex;
+}
+
+#registe-se-aqui {
+  justify-content: center;
+  text-decoration: underline;
+  display: flex !important;
+  width: 70%;
+  color: white;
+  cursor: pointer;
+}
+
+.column-login h1 {
+  margin-bottom: 1rem;
+}
+.column-login .btnclient {
+  margin-bottom: 0.5rem;
+}
+
+.btnclient {
+  cursor: pointer;
+}
+
+
+
+
+
+
+.column-register {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  height: 40rem;
+  width: 25rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin: 0 1rem;
+}
+.row-nova-loja .column-register {
+  background-color: red; 
+  color: white;
+  height: 18rem;
+}
+
+.column-register form div {
+  width: 100%;
+}
+
+.column-register form div input{
+  width: 15rem;
+  margin-bottom: 0.5rem;
+}
+
+.column-register form div select{
+  width: 15rem;
+  margin-bottom: 0.5rem;
+  box-sizing: content-box;
+}
+
+.column-register h1 {
+  margin-bottom: 1rem;
+}
+.column-register .btnclient {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive */
+
+@media screen and (max-width: 1300px) {
+  .h1-txt-combo {
+    font-size: 3.5rem;
+  }
+}
+
 @media screen and (max-width: 1009px) {
+  
   footer {
   justify-content: center;
   text-align: center;
@@ -549,11 +778,48 @@ footer {
   .txt-promocao {
     font-size: 4rem;
   }
-}
+  
+  .row-nova-loja .column {
+    height: 18rem;
+  }
+  
+  
+  
+  .row-nova-loja h1 {
+    font-size: 2rem;
+  }
+  
+  .row-nova-loja .column-login h1 {
+    font-size: 1.75rem;
+  }
+  
+  .row-nova-loja .column-login {
+    height: 14rem;
+  }
 
+
+
+}
 
 /* Tablet */
 @media screen and (max-width: 944px) {
+  
+  .pizzacomboimg {
+    display: none;
+  }
+  
+  .h1-txt-combo {
+    font-size: 3.5rem;
+  }
+  
+  .hamburger {
+    display: block;
+  }
+  
+  .menu-container {
+    display: none;
+  }
+  
   .row {
     flex-direction: column;
     width: 80%;
@@ -583,30 +849,96 @@ footer {
   #prom-pizza-box-8 {
     display: none;
   }
-}
-/* Phone */
-@media screen and (max-width: 470px) {
-  .bars-menu {
-    display: block;
+  #prom-pizza-box-9 {
+    display: none;
   }
-  #prom-pizza-box-2 {
+  #prom-pizza-box-10 {
+    display: none;
+  }
+  #prom-pizza-box-11 {
+    display: none;
+  }
+  #prom-pizza-box-12 {
+    display: none;
+  }
+  #prom-pizza-box-13 {
+    display: none;
+  }
+  #prom-pizza-box-14 {
+    display: none;
+  }
+  #prom-pizza-box-15 {
+    display: none;
+  }
+  #prom-pizza-box-16 {
     display: none;
   }
   
+  /* body {
+  background: #336193;
+  color: #6ecddd;
+  font-family: 'Bebas';
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+} */
+/* h1 {
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 0.15em;
+  font-size: 3em;
+  line-height: 1.2;
+  transform: translateY(52%);
+} */
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+/* Phone */
+@media screen and (max-width: 470px) {
+  
+  .hamburger {
+    margin-right: 1rem;
+  }
+  
+  .nav {
+    margin-top: 5rem;
+  }
+  
+  #prom-pizza-box-2 {
+    display: none;
+  }
+
   .txt-promocao {
     font-size: 3rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
   }
-  
-  .btnmenu {
-    display: none;
-  }
+
+
   .prom-pizza-box {
     width: 80%;
     margin: 0rem 0rem 1rem 0rem;
     padding: 1rem;
-    height: 575px;
+    height: 625px;
   }
   
   .prom-pizza-img {
@@ -628,9 +960,5 @@ footer {
   }
   .btnpizza {
     font-size: 1.5rem;
-    /* padding: 10px 15px; */
-  }
-  .prom-pizza {
-    /* width: 70%; */
   }
 }
