@@ -634,3 +634,46 @@ footer {
     /* width: 70%; */
   }
 }
+
+
+/*Nova Loja*/
+.ad-row {
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.ad-column {
+  text-align: center;
+  /* position: relative; */
+  /* margin-left: 77px;
+  margin-right: 70px;
+  margin-top: 40px;
+  display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  border-radius: 5px;
+  height: 145px;
+  width: 100%;
+  padding: 8rem 25rem;
+  margin: 0 1rem;
+}
+
+.ad-column h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  /* margin-bottom: 1rem; */
+}
+
+.ad-column h4 {
+  font-size: 1rem;
+  /* margin-bottom: 1rem; */
+  font-weight: bold;
+}
+
+.ad-column form {
+  margin-top: 2rem;
+}
